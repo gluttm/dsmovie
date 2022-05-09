@@ -1,7 +1,7 @@
-import React from 'react'
+import Pagination from "components/Pagination";
+import React from "react";
+import "./style.css";
 
 export default function Listing() {
-  return (
-    <div>Listomg</div>
-  )
+  return <Pagination />;
 }
