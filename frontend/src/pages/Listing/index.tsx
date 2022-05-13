@@ -39,9 +39,9 @@ export default function Listing() {
       <Pagination page={page} onChangePage={handlePageChange} />
       <div className="container">
         <div className="row">
-          {page.content.map((movie) => (
-            <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-              <MovieCard key={movie.id} movie={movie} />
+          {page.content.map((movie, i) => (
+            <div key={i} className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+              <MovieCard movie={movie} />
             </div>
           ))}
         </div>
