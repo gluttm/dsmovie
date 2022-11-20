@@ -1,0 +1,162 @@
+/* Init Colors */
+/* Init Light palette Background classes */
+.bg-primary {
+    background: #FA6400;
+}
+.bg-error {
+    background: #FF4238;
+}
+.bg-success {
+    background: #15C15D;
+}
+.bg-base {
+    background: #FFFFFF;
+}
+.bg-shade-100pct {
+    background: #192434;
+}
+.bg-base-contrast-5pct {
+    background: linear-gradient(0deg, rgba(25, 59, 103, 0.05), rgba(25, 59, 103, 0.05)), #FFFFFF;
+}
+.bg-shade-90pct {
+    background: rgba(24, 39, 58, 0.94);
+}
+.bg-shade-80pct {
+    background: rgba(26, 41, 61, 0.83);
+}
+.bg-shade-70pct {
+    background: rgba(27, 43, 65, 0.72);
+}
+.bg-shade-60pct {
+    background: rgba(28, 46, 69, 0.6);
+}
+.bg-shade-50pct {
+    background: rgba(28, 48, 74, 0.5);
+}
+.bg-shade-40pct {
+    background: rgba(28, 50, 79, 0.38);
+}
+.bg-shade-30pct {
+    background: rgba(28, 52, 84, 0.26);
+}
+.bg-shade-20pct {
+    background: rgba(28, 55, 90, 0.16);
+}
+.bg-shade-10pct {
+    background: rgba(26, 56, 96, 0.1);
+}
+.bg-shade-5pct {
+    background: rgba(25, 59, 103, 0.05);
+}
+
+/* END */
+
+/* Init light Text color pallete */
+.primary-text {
+    color: #F56200;
+}
+.error-text {
+    color: #F52419;
+}
+.success-text {
+    color: #00A344;
+}
+.text-shade-100pct {
+    color: #192434;
+}
+.text-shade-90pct {
+    color: rgba(24, 39, 58, 0.94);
+}
+.text-shade-80pct {
+    color: rgba(27, 43, 65, 0.72);
+}
+.text-shade-70pct {
+    color: rgba(27, 43, 65, 0.72);
+}
+.text-shade-60pct {
+    color: rgba(28, 46, 69, 0.6);
+}
+/* End  */
+/* End Colors */
+
+/* Typograph */
+
+.title {
+    font-size: 28px;
+}
+.sub-title {
+    font-size: 22px;
+}
+.heading {
+    font-size: 40px;
+}
+.heading-4 {
+    font-size: 18px;
+}
+.heading-5 {
+    font-size: 16px;
+}
+.heading-6 {
+    font-size: 13px;
+}
+.body-text {
+    font-size: 16px;
+}
+.small-body-text {
+    font-size: 14px;
+}
+.extra-small-body-text {
+    font-size: 13px;
+}
+/* Component specific text styles */
+
+/* END */
+/* END */
+
+/* Shadow */
+.shadow-xs {
+    box-shadow: 0px 1px 4px -1px rgba(28, 48, 74, 0.5);
+}
+.shadow-s {
+    box-shadow: 0px 3px 12px -1px rgba(28, 52, 84, 0.26), 0px 2px 4px -1px rgba(28, 55, 90, 0.16);
+}
+.shadow-m {
+    box-shadow: 0px 8px 24px -4px rgba(28, 50, 79, 0.38), 0px 2px 6px -1px rgba(28, 55, 90, 0.16);
+}
+.shadow-l {
+    box-shadow: 0px 12px 48px -6px rgba(28, 50, 79, 0.38), 0px 3px 18px -2px rgba(28, 55, 90, 0.16);
+}
+.shadow-xl {
+    box-shadow: 0px 18px 64px -8px rgba(28, 50, 79, 0.38), 0px 4px 24px -3px rgba(28, 55, 90, 0.16);
+}
+/* END */
+/* Spacing */
+    /* Padding */
+/* .p-small {
+
+}
+.p-extra-samll {
+
+}
+.p-medium {
+
+}
+.p-large {
+
+}
+.p-extra-large {
+
+} */
+    /* END */
+/* END */
+
+/* Border radius */
+
+/* END */
+:root {
+    --lumo-primary-color-10pct: "#FA6400";
+}
+:host(.primary) [part~="button"] {
+    color: #fff;
+    background-color: ;
+  }
