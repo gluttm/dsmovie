@@ -1,0 +1,17 @@
+	Alt + Enter - for actions
+	F2 - Jump througt the errors
+	Alt + 1 - Open tool window
+	Esc + To focus back to editor
+	Ctrl + E - Opens the list of recent opened files
+	Ctrl + B - Go to declarations
+	Ctrl + Ctrl - Run anything from anywhere
+	Ctrl + Shift + UP/Down - Move code
+	Shift + Ctrl + Enter - Auto complete statements
+	Ctrl + Alt + L - Format code
+	Shift + Ctrl + Alt + T - Refactoring code
+	Ctrl + Alt + N - Inline variable
+	Shift + Ctrl + A - Tool windows
+	Shift + shift - Search everywhere
+	Ctrl + Alt + Enter - New line before current
+	Alt + J - Select next occurance
+	Ctrl + Shift + Alt + J - Select all acurances
